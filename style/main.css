@@ -99,12 +99,8 @@ body {
 
 .six {
     position: relative;
-    top: 10vh;
+    top: 8vh;
     z-index: 1;
-}
-
-img.picture-profile {
-    width: 50%;
 }
 
 .six img {
