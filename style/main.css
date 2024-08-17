@@ -103,13 +103,17 @@ body {
     z-index: 1;
 }
 
-.six img.profile-picture {
+img.picture-profile {
+    width: 50%;
+}
+
+.six img {
     /* display: inline-block;
     height: 350px;
     max-width: 100%; */
     /* height: auto; */
     object-fit: cover; /* Atur gambar untuk menutupi sepenuhnya kontainer */
-    max-width: 50% !important; /* Pastikan gambar tidak melebihi lebar maksimum dari kontainer */
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar maksimum dari kontainer */
     height: auto; /* Biarkan tinggi mengikuti proporsi asli gambar */
 }
 
@@ -290,9 +294,9 @@ body {
         width: 50px;
     } */
 
-    .six img.profile-picture {
+    .six img {
         object-fit: contain; /* Atur gambar untuk muat sepenuhnya dalam kontainer */
-        max-width: 85% !important; /* Pastikan gambar tidak melebihi lebar maksimum dari kontainer */
+        max-width: 100%; /* Pastikan gambar tidak melebihi lebar maksimum dari kontainer */
         height: auto; /* Biarkan tinggi mengikuti proporsi asli gambar */
     }
 
